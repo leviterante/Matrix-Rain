@@ -60,7 +60,7 @@ function Stream() {
   this.speed = random(2, 4);
 
   this.generateSymbols = function (x, y) {
-    let opacity = 50;
+    let opacity = 250;
     let first = round(random(0, 4)) == 1;
     for (let i = 0; i <= this.totalSymbols; i++) {
       symbol = new Symbol(x, y, this.speed, first, opacity);
